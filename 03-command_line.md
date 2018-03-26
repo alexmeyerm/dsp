@@ -45,13 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > ls # List files in a directory
-> > ls -a # List all files, including hidden, in a directory
-> > ls -l # Show details of each file
-> > ls -lh # Show details in a human readable size
-> > ls -lah # Show details af all files, including hidden ones
-> > ls -t # Sort file list by datetime
-> > ls -Glp # Show files, with details, with an / appended to each one.  Do not show group names
+- ls # List files in a directory
+- ls -a # List all files, including hidden, in a directory
+- ls -l # Show details of each file
+- ls -lh # Show details in a human readable size
+- ls -lah # Show details af all files, including hidden ones
+- ls -t # Sort file list by datetime
+- ls -Glp # Show files, with details, with an / appended to each one.  Do not show group names
 
 ---
 
@@ -59,11 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > ls -d # Show only directories in a directory, not files
-> > ls -L # Show those files with symbolic link, with their reference
-> > ls -m # Show list of files as a comma separated list
-> > ls -R # Show files, folders AND subfilders
-> > ls -1 # Show each file in a new line
+- ls -d # Show only directories in a directory, not files
+- ls -L # Show those files with symbolic link, with their reference
+- ls -m # Show list of files as a comma separated list
+- ls -R # Show files, folders AND subfilders
+- ls -1 # Show each file in a new line
 
 ---
 
@@ -74,6 +74,7 @@ What does `xargs` do? Give an example of how to use it.
 > > xargs takes a list of parameters (Normally, a list or arguments passed by another piped function) and executes a function to each one of them
 > > Examples:
 > > > echo 'one two three' | xargs mkdir  # Will create three directories called: one, two and three
+
 > > > ls | xargs rm -fr # Will remove each file of the directory.  Faster than rm -fr *
 
  
