@@ -20,17 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > pwd # show current working directory path
-mkdir directoryName # creating a directory
-rm -R directoryName # deleting a directory
-touch fileName # creating a file using `touch` command
-rm fileName # deleting a file
-mv fileName newFileName # renaming a file
-ls -a # listing hidden files
-cp fileName otherFileName # copying a file from one directory to another
-tail -5 fileName # show the last 5 lines of a file (any N lines.  Works with head as well)
-cat fileName # show contents of a File
-chmod 755 fileName # Give permissions to a file Read-Write-Execute/Owner-Group-All
+- pwd # show current working directory path
+- mkdir directoryName # creating a directory
+- rm -R directoryName # deleting a directory
+- touch fileName # creating a file using `touch` command
+- rm fileName # deleting a file
+- mv fileName newFileName # renaming a file
+- ls -a # listing hidden files
+- cp fileName otherFileName # copying a file from one directory to another
+- tail -5 fileName # show the last 5 lines of a file (any N lines.  Works with head as well)
+- cat fileName # show contents of a File
+- chmod 755 fileName # Give permissions to a file Read-Write-Execute/Owner-Group-All
 
 ---
 
