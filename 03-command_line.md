@@ -20,7 +20,17 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > pwd # show current working directory path
+> > mkdir directoryName # creating a directory
+> > rm -R directoryName # deleting a directory
+> > touch fileName # creating a file using `touch` command
+> > rm fileName # deleting a file
+> > mv fileName newFileName # renaming a file
+> > ls -a # listing hidden files
+> > cp fileName otherFileName # copying a file from one directory to another
+> > tail -5 fileName # show the last 5 lines of a file (any N lines.  Works with head as well)
+> > cat fileName # show contents of a File
+> > chmod 755 fileName # Give permissions to a file Read-Write-Execute/Owner-Group-All
 
 ---
 
@@ -35,7 +45,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls # List files in a directory
+> > ls -a # List all files, including hidden, in a directory
+> > ls -l # Show details of each file
+> > ls -lh # Show details in a human readable size
+> > ls -lah # Show details af all files, including hidden ones
+> > ls -t # Sort file list by datetime
+> > ls -Glp # Show files, with details, with an / appended to each one.  Do not show group names
 
 ---
 
@@ -43,7 +59,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > ls -d # Show only directories in a directory, not files
+> > ls -L # Show those files with symbolic link, with their reference
+> > ls -m # Show list of files as a comma separated list
+> > ls -R # Show files, folders AND subfilders
+> > ls -1 # Show each file in a new line
 
 ---
 
@@ -51,7 +71,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > xargs takes a list of parameters (Normally, a list or arguments passed by another piped function) and executes a function to each one of them
+> > Examples:
+> > > echo 'one two three' | xargs mkdir  # Will create three directories called: one, two and three
+> > > ls | xargs rm -fr # Will remove each file of the directory.  Faster than rm -fr *
 
  
 
